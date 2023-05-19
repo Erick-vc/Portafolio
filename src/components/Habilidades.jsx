@@ -29,6 +29,7 @@ const Habilidades = () => {
     setStateSkills("tools");
   };
 
+
   return (
       <section id="habilidades" className="pt-16">
         <h1 className="text-colorTitle font-bold text-3xl md:text-4xl py-5 border-b border-gray-500 pb-3 mb-8">
