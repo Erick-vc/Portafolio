@@ -41,7 +41,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="mx-auto fixed w-full py-1.5 top-0 rounded-b-lg z-50 bg-secundary">
+    <header className="mx-auto fixed w-full py-4 top-0 rounded-b-lg z-50 bg-secundary">
       <div className=" flex flex-wrap justify-between items-center px-[5%]">
         <a title="Image" href="#home" className="photo" alt="photoImage">
           <img src={Perfil} alt="logo" />

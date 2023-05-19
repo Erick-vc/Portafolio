@@ -8,20 +8,21 @@ import { useContext } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
+
 const Home = () => {
   const { menu } = useContext(AppContext);
 
   return (
-    <>
+    <div>
       <Header />
-        <main className={`mx-auto max-w-screen-xl px-10 ${ menu && "isActive blur-md md:blur-0"}`}>
+        <main className={`mx-auto max-w-screen-xl px-10 ${ menu ? ("isActive blur-md md:blur-0") : ("")}`}>
           <Inicio />
           <Habilidades />
           <Proyectos />
           <Contacto />
         </main>
       <Footer />
-    </>
+    </div>
   );
 };
 

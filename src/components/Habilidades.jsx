@@ -60,7 +60,7 @@ const Habilidades = () => {
             />
           </div>
           <div className="w-full md:w-3/4">
-            <div div className={`hidden bg-secundary md:flex px-10 py-5 gap-4`}>
+            <div className={`hidden bg-secundary md:flex px-10 py-5 gap-4`}>
               <Skills state={stateSkills} screen="desk" />
             </div>
           </div>
