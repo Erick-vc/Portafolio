@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import initialStateFront from "../data/Habilidades/skills";
+import initialStateFront from "../data/skillsProjects";
 import SkillContent from "./SkillContent";
 
 const Skills = ({ state, screen }) => {

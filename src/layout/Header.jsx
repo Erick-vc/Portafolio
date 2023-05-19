@@ -1,12 +1,16 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Perfil from "../assets/perfil.webp";
 import AppContext from "../context/AppContext";
-import links from "../data/HeaderLink/linkheader";
-// import { IoIosMenu } from "react-icons/io";
+// import links from "../data/HeaderLink/linkheader";
+import initialState from "../data/links";
 import hamburguer from '../svg/hamburguer.svg'
 
 
 const Header = () => {
+
+  const [stateLink] = useState(initialState);
+  const {linkHeader} = stateLink;
+
   const { menu, setMenu, toggleMenu } = useContext(AppContext);
   const closeMenu = () => {
     setMenu(false);
@@ -67,7 +71,7 @@ const Header = () => {
 
         <div className={`Cabecera-nav ${menu ? "isActive" : ""}`}>
           <ul className="menu active flex flex-col md:flex-row flex-nowrap justify-center items-center gap-8">
-            {links.map((link) => (
+            {linkHeader.map((link) => (
               <li key={link.id} className="nav-item my-2 mx-0 lg:my-0 lg:mx-2">
                 <a
                   title="linkHeader"

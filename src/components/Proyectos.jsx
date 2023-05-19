@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import initialStateProjectFront from "../data/Proyectos/projects";
+import initialState from "../data/skillsProjects";
+
 
 const Proyectos = () => {
-  const [stateProjectFront] = useState(initialStateProjectFront);
-  const { projects } = stateProjectFront;
+  const [stateFront] = useState(initialState);
+
+  const { projects } = stateFront;
 
 
   return (

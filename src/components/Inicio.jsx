@@ -1,10 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import Perfil from "../assets/perfil.webp";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-import InitailLinks from "../data/SocialMedia/links";
+
+import initialState from "../data/links";
 
 const Inicio = () => {
+
+
+  const [stateLink] = useState(initialState);
+  const {linkSocialMedia} = stateLink;
+
   const [text] = useTypewriter({
     words: [
       "Practicante de Desarrollo Web",
@@ -46,7 +52,7 @@ const Inicio = () => {
               </p>
             </div>
             <div className="flex flex-wrap gap-4">
-              {InitailLinks.map((link) => (
+              {linkSocialMedia.map((link) => (
                 <a
                   title="linkHeader"
                   rel="noreferrer"
