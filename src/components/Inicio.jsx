@@ -1,15 +1,12 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Perfil from "../assets/perfil.webp";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-
 
 import initialState from "../data/links";
 
 const Inicio = () => {
-
-
   const [stateLink] = useState(initialState);
-  const {linkSocialMedia} = stateLink;
+  const { linkSocialMedia } = stateLink;
 
   const [text] = useTypewriter({
     words: [
@@ -33,8 +30,13 @@ const Inicio = () => {
                 Erick Villalobos
               </h2>
               <h3 className="text-3xl sm:text-4xl font-bold mt-2">
-                <span className="text-primary">{text}</span>
-                <Cursor cursorStyle="|" cursorColor="#3A98B9" />
+                <span className="text-primary md:hidden">
+                  Practicante de Desarrollo Web
+                </span>
+                <span className="text-primary hidden md:flex">
+                  {text}
+                  <Cursor cursorStyle="|" cursorColor="#3A98B9" />
+                </span>
               </h3>
 
               <p className="text-lg sm:text-xl sm:leading-8  text-justify sm:text-left mt-5">
