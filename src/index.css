@@ -1,0 +1,111 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+body {
+  background-color: #1D1F21  ;
+  color: white  ;
+  font-family: 'Rubik', sans-serif;
+  /* font-family: 'Roboto Mono', monospace; */
+  /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+
+/* TODO: ESTILOS DEL HEADER*/
+.menu-link_selected {
+  color: #FFD700 ;
+}
+
+.nav-item .active {
+  color: #FFD700 ;
+  transition: .1s;
+}
+.Cabecera-h1 {
+  animation: slideRight 1s ease forwards;
+}
+.photo {
+  display: none;
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Cabecera-nav {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+  }
+  .Cabecera-nav.isActive {
+    height: 35vh;
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 350px) {
+  .Cabecera-a {
+    display: none;
+  }
+  .photo {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+    border: 1px solid gray;
+  }
+}
+
+/*TODO: ESTILO DE INICIO INICIO*/
+.Imagen>img{
+  box-shadow: 0px 10px 10px #454545;
+  animation: floatImage 4s ease-in-out infinite;
+  animation-delay: 1s, 3s;
+}
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
