@@ -39,7 +39,7 @@ const Proyectos = () => {
                   {project.title}
                 </div>
                 <div className="w-full text-md text-left leading-6 flex flex-col gap-1.5">
-                  <p className="text-left text-lime-500 text-sm font-bold">
+                  <p className="text-left text-lime-500 text-sm font-bold leading-6">
                     {project.info}
                   </p>
                   <p>{project.description}</p>
