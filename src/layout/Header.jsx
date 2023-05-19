@@ -54,7 +54,7 @@ const Header = () => {
         <h1 className="Cabecera-h1 text-2xl text-white no-underline font-semibold cursor-default opacity-0 ">
           <a
             title="title"
-            href="home"
+            href="#home"
             alt="titlePortafolio"
             className="Cabecera-a text-colorTitle uppercase text-xl md:text-2xl cursor-pointer hover:text-primary font-bold hover:scale-90 transition-all duration-300 ease-out block">
             Portafolio
