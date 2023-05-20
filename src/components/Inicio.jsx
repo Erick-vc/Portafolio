@@ -49,8 +49,8 @@ const Inicio = () => {
                 Cuento con mayor experiencia realizando proyectos
                 <span className="font-bold text-indigo-400"> FrontEnd</span>,
                 sin embargo, también he trabajado con el
-                <span className="font-bold text-indigo-400"> stack PERN </span>
-                (Postgres, Express, React y Node).
+                <span className="font-bold text-indigo-400"> stack MERN </span>
+                (MySQL, Express, React y NodeJS).
               </p>
             </div>
             <div className="flex flex-wrap gap-4">
