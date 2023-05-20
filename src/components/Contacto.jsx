@@ -36,11 +36,11 @@ const Contacto = () => {
           <div className="flex text-center flex-col gap-4">
             <span className="text-lg text-justify md:text-left leading-8">
               Gracias por llegar hasta aquí. Espero que este portafolio
-              realizado en Reat con mucho esfuerzo y cariño haya sido de tu
+              realizado en React con mucho esfuerzo y cariño haya sido de tu
               agrado.
             </span>
             <span className="text-lg text-justify md:text-left leading-8">
-              Contactate conmigo a través de mis redes sociales, correo
+              Contáctate conmigo a través de mis redes sociales, correo
               electrónico o te dejo un formulario para que lo rellenes. Hasta
               pronto!
             </span>

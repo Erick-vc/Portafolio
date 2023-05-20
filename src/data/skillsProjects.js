@@ -197,16 +197,16 @@ const SkillProjects = {
       id: "2",
       image: `${citas}`,	
       title: "Control de Citas",
-      linkp: "https:/citas-control.netlify.app/",
+      linkp: "https://citas-control.netlify.app/",
       info: "Proyecto propio responsive",
-      description: "Control de citas de su mascota almacenandose en LocalStorage",
+      description: "Control de citas de su mascota almacenándose en LocalStorage.",
       habilidades: [
         { id:"1", subSkill: `${html}`},
         { id:"2", subSkill: `${css}`},
         { id:"3", subSkill: `${js}`}
       ],
       sitio: [
-        { id:"1", icon: web , txt: "Ir a la web", link: "https:/citas-control.netlify.app/"},
+        { id:"1", icon: web , txt: "Ir a la web", link: "https://citas-control.netlify.app/"},
         // { id:"2", icon: github,  txt: "Ir a al repositorio"}
       ]
     },
@@ -251,7 +251,7 @@ const SkillProjects = {
       title: "eComerce Libreria",
       linkp: "https://villa-libros.vercel.app/",
       info: "Proyecto universitario responsive",
-      description: "Sistema web (frontEnd) para la compra de libros por parte del client.",
+      description: "Sistema web (frontEnd) para la compra de libros por parte del cliente.",
       habilidades: [
         { id:"1", subSkill: `${html}`},
         { id:"2", subSkill: `${react}`},
@@ -287,7 +287,7 @@ const SkillProjects = {
       title: "Calculador de Areas",
       linkp: "https://areas-geometricas.netlify.app",
       info: "Proyecto propio responsive",
-      description: "Calculador de area geometricas utilizando lógica de programación.",
+      description: "Calculador de áreas geometricas utilizando lógica de programación.",
       habilidades: [
         { id:"1", subSkill: `${html}`},
         { id:"2", subSkill: `${css}`},
@@ -304,7 +304,7 @@ const SkillProjects = {
       title: "CRUD Client",
       linkp: "https://curd-client-mysql.netlify.app",
       info: "Proyecto propio responsive",
-      description: "CRUD sencillo para llevar el registro de tus clientes",
+      description: "CRUD sencillo para llevar el registro de tus clientes.",
       habilidades: [
         { id:"1", subSkill: `${next}`},
         { id:"4", subSkill: `${tailwind}`},

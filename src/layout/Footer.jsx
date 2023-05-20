@@ -29,7 +29,7 @@ const Footer = () => {
     <footer className="mx-auto max-w-screen-xl px-10 mb-5 flex items-center justify-center h-24">
       <div className="flex flex-col md:flex-row items-center gap-0 md:gap-4">
         <span className="text-sm md:text-xl text-colorTitle font-bold">Made by Erick Villalobos!</span>
-        <span className="text-sm md:text-xl text-colorTitle font-bold">I love programaming ♥</span>
+        <span className="text-sm md:text-xl text-colorTitle font-bold">I love programming ♥</span>
       </div>
       <a
         title="Icon"
