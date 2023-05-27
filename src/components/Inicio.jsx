@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Perfil from "../assets/perfil.webp";
+// import Perfil from "../assets/e.jpg";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 import initialState from "../data/links";
@@ -79,7 +80,7 @@ const Inicio = () => {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <a
             title="linkPdf"
             href="/CV_VillalobosCasanatanErick.pdf"
@@ -88,7 +89,7 @@ const Inicio = () => {
             alt="btn_CV">
             Descargar CV
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
