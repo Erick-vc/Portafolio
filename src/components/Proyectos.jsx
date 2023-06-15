@@ -15,7 +15,7 @@ const Proyectos = () => {
       </h3>
 
       <div
-        className="md:columns-2 lg:columns-3 xl:columns-4 gap-8 gap-y-6"
+        className="md:columns-2 lg:columns-3 xl:columns-3 gap-8 gap-y-6"
         // className="grid grid-cols-4 gap-8"
       >
         {projects.map((project) => (

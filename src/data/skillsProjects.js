@@ -175,26 +175,26 @@ const SkillProjects = {
 
   // TODO:! Para los PROYECTOS
   projects : [
+    // {
+    //   id: "1",
+    //   image: `${bm_Client}`,	
+    //   title: "eCommerce Cevicheria Client",
+    //   linkp: "https://brisas-marina-front-end-cliente.vercel.app/brisasMarinas",
+    //   info: "Proyecto universitario responsive",
+    //   description: "Sistema web para la compra de platillo por parte del cliente en una cevichería.",
+    //   habilidades: [
+    //     { id:"1", subSkill: `${html}`},
+    //     { id:"2", subSkill: `${react}`},
+    //     { id:"3", subSkill: `${css}`},
+    //     { id:"4", subSkill: `${ts}`},
+    //   ],
+    //   sitio: [
+    //     { id:"1", icon: web, txt: "Ir a la web", link: "https://brisas-marina-front-end-cliente.vercel.app/brisasMarinas"},
+    //     { id:"2", icon: github, txt: "Ir a al repositorio", link: "https://github.com/asem210/BrisasMarina-FrontEnd-Cliente"}
+    //   ]
+    // },
     {
       id: "1",
-      image: `${bm_Client}`,	
-      title: "eCommerce Cevicheria Client",
-      linkp: "https://brisas-marina-front-end-cliente.vercel.app/brisasMarinas",
-      info: "Proyecto universitario responsive",
-      description: "Sistema web para la compra de platillo por parte del cliente en una cevichería.",
-      habilidades: [
-        { id:"1", subSkill: `${html}`},
-        { id:"2", subSkill: `${react}`},
-        { id:"3", subSkill: `${css}`},
-        { id:"4", subSkill: `${ts}`},
-      ],
-      sitio: [
-        { id:"1", icon: web, txt: "Ir a la web", link: "https://brisas-marina-front-end-cliente.vercel.app/brisasMarinas"},
-        { id:"2", icon: github, txt: "Ir a al repositorio", link: "https://github.com/asem210/BrisasMarina-FrontEnd-Cliente"}
-      ]
-    },
-    {
-      id: "2",
       image: `${citas}`,	
       title: "Control de Citas",
       linkp: "https://citas-control.netlify.app/",
@@ -210,26 +210,26 @@ const SkillProjects = {
         // { id:"2", icon: github,  txt: "Ir a al repositorio"}
       ]
     },
+    // {
+    //   id: "3",
+    //   image: `${bm_Admi}`,
+    //   title: "eCommerce Cevicheria Admi",
+    //   linkp: "https://brisas-marinas-front-end.vercel.app/",
+    //   info: "Proyecto universitario no esponsive",
+    //   description: "Sistema web para la administración de platillos (CRUD) de una cevichería.",
+    //   habilidades: [
+    //     { id:"1", subSkill: `${react}`},
+    //     { id:"2", subSkill: `${node}`},
+    //     { id:"3", subSkill: `${ts}`},
+    //     { id:"4", subSkill: `${postgresql}`},
+    //   ],
+    //   sitio: [
+    //     { id:"1", icon: web, txt: "Ir a la web", link: "https://brisas-marinas-front-end.vercel.app/"},
+    //     { id:"2", icon: github, txt: "Ir a al repositorio", link: "https://github.com/asem210/Brisas-Marinas-FrontEnd"}
+    //   ]
+    // },
     {
-      id: "3",
-      image: `${bm_Admi}`,
-      title: "eCommerce Cevicheria Admi",
-      linkp: "https://brisas-marinas-front-end.vercel.app/",
-      info: "Proyecto universitario no esponsive",
-      description: "Sistema web para la administración de platillos (CRUD) de una cevichería.",
-      habilidades: [
-        { id:"1", subSkill: `${react}`},
-        { id:"2", subSkill: `${node}`},
-        { id:"3", subSkill: `${ts}`},
-        { id:"4", subSkill: `${postgresql}`},
-      ],
-      sitio: [
-        { id:"1", icon: web, txt: "Ir a la web", link: "https://brisas-marinas-front-end.vercel.app/"},
-        { id:"2", icon: github, txt: "Ir a al repositorio", link: "https://github.com/asem210/Brisas-Marinas-FrontEnd"}
-      ]
-    },
-    {
-      id: "4",
+      id: "2",
       image: `${blogClient}`,
       title: "Blog - Cliente",
       linkp: "https://blog-personal-front.netlify.app/",
@@ -246,7 +246,7 @@ const SkillProjects = {
       ]
     },
     {
-      id: "5",
+      id: "3",
       image: `${VillaLibros}`,
       title: "eComerce Libreria",
       linkp: "https://villa-libros.vercel.app/",
@@ -263,7 +263,7 @@ const SkillProjects = {
       ]
     },
     {
-      id: "6",
+      id: "4",
       image: `${crmClient}`,
       title: "CRM Client",
       linkp: "https://crm-clients-next.netlify.app",
@@ -282,7 +282,7 @@ const SkillProjects = {
       ]
     },
     {
-      id: "7",
+      id: "5",
       image: `${areas}`,
       title: "Calculador de Areas",
       linkp: "https://areas-geometricas.netlify.app",
@@ -299,7 +299,7 @@ const SkillProjects = {
       ]
     },
     {
-      id: "8",
+      id: "6",
       image: `${crud}`,
       title: "CRUD Client",
       linkp: "https://curd-client-mysql.netlify.app",
