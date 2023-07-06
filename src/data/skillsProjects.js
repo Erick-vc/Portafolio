@@ -266,7 +266,8 @@ const SkillProjects = {
       id: "4",
       image: `${crmClient}`,
       title: "CRM Client",
-      linkp: "https://crm-clients-next.netlify.app",
+      //linkp: "",
+      // linkp: "https://crm-clients-next.netlify.app",
       info: "Proyecto propio responsive",
       description: "Sistema para llevar el control de clientes, vendedores y productos.",
       habilidades: [
@@ -277,7 +278,7 @@ const SkillProjects = {
         { id:"4", subSkill: `${mongodb}`},
       ],
       sitio: [
-        { id:"1", icon: web, txt: "Ir a la web", link: "https://crm-clients-next.netlify.app"},
+        // { id:"1", icon: web, txt: "Ir a la web", link: "https://crm-clients-next.netlify.app"},
         { id:"2", icon: github, txt: "Ir a al repositorio", link: "https://github.com/Erick-vc/CRMClient"}
       ]
     },
@@ -302,7 +303,8 @@ const SkillProjects = {
       id: "6",
       image: `${crud}`,
       title: "CRUD Client",
-      linkp: "https://curd-client-mysql.netlify.app",
+      //linkp: "",
+      // linkp: "https://curd-client-mysql.netlify.app",
       info: "Proyecto propio responsive",
       description: "CRUD sencillo para llevar el registro de tus clientes.",
       habilidades: [
@@ -312,7 +314,7 @@ const SkillProjects = {
         { id:"3", subSkill: `${mysql}`},
       ],
       sitio: [
-        { id:"1", icon: web, txt: "Ir a la web", link: "https://curd-client-mysql.netlify.app"},
+        // { id:"1", icon: web, txt: "Ir a la web", link: "https://curd-client-mysql.netlify.app"},
         { id:"2", icon: github, txt: "Ir a al repositorio", link: "https://github.com/Erick-vc/CRUD-FRONT-NETLIFY"}
       ]
     },
