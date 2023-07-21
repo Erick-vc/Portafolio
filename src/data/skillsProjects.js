@@ -279,7 +279,7 @@ const SkillProjects = {
       ],
       sitio: [
         // { id:"1", icon: web, txt: "Ir a la web", link: "https://crm-clients-next.netlify.app"},
-        { id:"2", icon: github, txt: "Ir a al repositorio", link: "https://github.com/Erick-vc/CRMClient"}
+        { id:"2", icon: github, txt: "Ir a al repositorio", link: "https://github.com/Erick-vc/CRMGraphQL.git"}
       ]
     },
     {
@@ -315,7 +315,7 @@ const SkillProjects = {
       ],
       sitio: [
         // { id:"1", icon: web, txt: "Ir a la web", link: "https://curd-client-mysql.netlify.app"},
-        { id:"2", icon: github, txt: "Ir a al repositorio", link: "https://github.com/Erick-vc/CRUD-FRONT-NETLIFY"}
+        { id:"2", icon: github, txt: "Ir a al repositorio", link: "https://github.com/Erick-vc/CRUD-BACK-RAILWAY.git"}
       ]
     },
   ]
