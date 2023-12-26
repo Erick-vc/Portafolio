@@ -9,6 +9,8 @@ const Inicio = () => {
   const [stateLink] = useState(initialState);
   const { linkSocialMedia } = stateLink;
 
+  
+
   const [text] = useTypewriter({
     words: [
       "Practicante de Desarrollo Web",

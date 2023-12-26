@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "../layout/Home";
+// import Home from "../layout/Home";
 import Pdf from "../container/Pdf";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -14,7 +14,8 @@ const App = () => {
     <AppContext.Provider value={initialState}>
       <BrowserRouter>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            {/* <Route exact path="/" element={<Home />} /> */}
+            <Route exact path="/" element={<NotFound />} />
             <Route path="/CV_VillalobosCasanatanErick.pdf" element={<Pdf />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
